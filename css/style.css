@@ -1,6 +1,9 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FFFFFF;
+  color: #626F78;
+  font-size: 16px;
+  font-family: helvetica;
+  line-height: normal;
 }
 
 nav {
@@ -32,6 +35,16 @@ nav {
   float: right;
 }
 
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: navy;
+  text-decoration: none;
+}
+
 ul {
   list-style-type: none;
   float: right;
@@ -49,4 +62,20 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+p.author {
+  font-size: 14px;
+}
+
+figcaption {
+  font-size: 13px;
 }
